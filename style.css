@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #111;
+}
+
+header {
+  background-color: #b80000;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+header .red {
+  color: #fff;
+  background-color: #ff0000;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+
+nav a {
+  color: white;
+  margin-left: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 3em 1em;
+}
+
+.hero h2 {
+  color: #b80000;
+  font-size: 2em;
+}
+
+.hero .btn {
+  background-color: #b80000;
+  color: white;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.catalogo {
+  padding: 2em 1em;
+}
+
+.catalogo h3 {
+  text-align: center;
+  color: #b80000;
+  margin-bottom: 1em;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.galeria img {
+  border-radius: 5px;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 3em auto;
+  text-align: center;
+}
+
+.login-container input {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container .btn {
+  background-color: #b80000;
+  color: white;
+  padding: 1em;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.video-page {
+  padding: 2em;
+  text-align: center;
+}
+
+.video-fake {
+  background-color: #000;
+  color: #fff;
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #b80000;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
